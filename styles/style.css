@@ -133,6 +133,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: 65px;
     }
 
     .header img {
@@ -146,7 +147,7 @@ body {
     .nav-list {
         display: flex;
         gap: 30px;
-        margin-left: -550px;
+        margin-left: -450px;
     }
 
     .nav-list a {
@@ -162,14 +163,29 @@ body {
     .header2 {
         display: flex;
         gap: 72px;
+        align-items: center;
     }
 
-    .header2 a {
+    .header3 {
         color: var(--main-color);
         text-decoration: none;
     }
 
     .header4 {
-        color: var();
+        background-color: var(--main-color);
+        color: var(--three-color);
+        text-decoration: none;
+        border-radius: 6px;
+        padding: 16px 27px;
     }
+
+    .software0{
+        flex-direction: row;
+        gap: 85px;
+        max-width: 1000px;
+    }
+    .software{
+        align-items: start;
+    }
+
 }
